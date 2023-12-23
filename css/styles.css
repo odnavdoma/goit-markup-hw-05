@@ -514,7 +514,7 @@ img {
     padding: 72px 24px 24px 24px;
 }
 .form-close-button{
-
+    fill: #E7E9FC;
     position: absolute;
     top: 24px;
     right: 24px;
@@ -535,17 +535,30 @@ img {
     border: none;
     fill: #ffffff;
 } */
-.form-close-button:hover{
+/* .form-close-button:hover{
     background-color: #404bbf;
     border: none; 
+    fill: #ffffff; 
+} */  
+
+
+
+.form-close-button:hover{
+    background-color: #404bbf;
+    border: none;
     fill: #ffffff;
 }
 
+
 .form-close-button:focus{
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
+   background-color: #404bbf;
+   border: none;
+   fill: #ffffff;
 }
+
+
+
+
 .modal-btn-icon{
     /* color:#E7E9FC;
     fill: #2E2F42; */
@@ -594,11 +607,12 @@ img {
     border-color: #4D5AE5; 
 }
 .input-name-icon{
+    fill: #4D5AE5; 
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);   
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .input-name-icon:focus{
@@ -656,12 +670,17 @@ img {
     letter-spacing: 0.04em;
     color: #8e8f99;
   }
-  input:checked + label > checkbox-icon-box {
+
+
+  
+  .item:checked + form-label-checkbox > checkbox-icon-box {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
   }
-  
+      
+
+
   .checkbox-icon-box {
     display: inline-flex;
     align-items: center;
