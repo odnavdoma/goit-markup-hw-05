@@ -530,17 +530,6 @@ img {
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .modal-btn:hover{
-    background-color: #404bbf;
-    border: none;
-    fill: #ffffff;
-} */
-/* .form-close-button:hover{
-    background-color: #404bbf;
-    border: none; 
-    fill: #ffffff; 
-} */  
-
 
 
 .form-close-button:hover{
@@ -672,7 +661,7 @@ img {
 
 
 
-  .item:checked + .form-label-checkbox > .checkbox-icon-box{
+  .item .visually-hidden:checked + .form-label-checkbox > .checkbox-icon-box{
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
