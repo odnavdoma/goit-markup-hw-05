@@ -650,11 +650,12 @@ img {
     letter-spacing: 0.04em;
     color: #8e8f99;
   }
-  input:checked + form-label-checkbox > checkbox-icon-box{
+  input:checked + label > span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
   }
+  
   .checkbox-icon-box {
     display: inline-flex;
     align-items: center;
