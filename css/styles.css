@@ -661,7 +661,7 @@ img {
 
 
 
-  .item .visually-hidden:checked + .form-label-checkbox > .checkbox-icon-box{
+  .item:checked + .form-label-checkbox > .checkbox-icon-box{
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
