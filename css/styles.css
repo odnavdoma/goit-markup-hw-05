@@ -514,7 +514,7 @@ img {
     padding: 72px 24px 24px 24px;
 }
 .form-close-button{
-    color:#E7E9FC;
+
     position: absolute;
     top: 24px;
     right: 24px;
@@ -535,16 +535,20 @@ img {
     border: none;
     fill: #ffffff;
 } */
+.form-close-button:hover{
+    background-color: #404bbf;
+    border: none; 
+    fill: #ffffff;
+}
 
-.form-close-button:hover,
-.form-close-button:focus {
+.form-close-button:focus{
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
 .modal-btn-icon{
-    color:#E7E9FC;
-    fill: #2E2F42;
+    /* color:#E7E9FC;
+    fill: #2E2F42; */
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
