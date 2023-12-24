@@ -531,18 +531,25 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-close-button:hover .modal-btn-icon,
+.form-close-button:focus .modal-btn-icon{
+    fill: #ffffff;  
+}
+
+
+
 
 .form-close-button:hover{
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    /* fill: #ffffff; */
 }
 
 
 .form-close-button:focus{
    background-color: #404bbf;
    border: none;
-   fill: #ffffff;
+   /* fill: #ffffff; */
 }
 
 
